@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "jsxFactory": "h"
+  },
+  "include": ["./src/**/*"]
+}

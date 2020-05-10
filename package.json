@@ -1,0 +1,31 @@
+{
+  "name": "landingpad",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "10.4.1"
+  },
+  "scripts": {
+    "start": "parcel serve ./src/index.html"
+  },
+  "alias": {
+    "react": "preact/compat",
+    "react-dom": "preact/compat"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/plugin-transform-react-jsx": "7.9.4",
+    "@babel/preset-env": "7.9.6",
+    "@babel/preset-typescript": "7.9.0",
+    "@types/node": "13.13.5",
+    "@types/parcel-env": "0.0.0",
+    "babel-plugin-jsx-pragmatic": "1.0.2",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-preact": "2.0.0",
+    "parcel": "2.0.0-alpha.3.2",
+    "parcel-plugin-babel-typescript": "1.0.1",
+    "parcel-plugin-typescript": "1.0.0",
+    "typescript": "3.8.3"
+  }
+}
