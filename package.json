@@ -7,8 +7,10 @@
     "preact": "10.4.1"
   },
   "scripts": {
-    "start": "concurrently --prefix-colors \"bgCyan.yellow.bold,bgGreen.red.bold\" -n \"BUNDLER,COMPILER\" \"parcel serve ./src/index.html\" \"tsc -w --noEmit\" ",
-    "build": "parcel build ./src/index.html"
+    "start": "concurrently --prefix-colors \"bgCyan.yellow.bold,bgGreen.red.bold\" -n \"BUNDLER,COMPILER\" \"yarn bundle\" \"yarn compile\" ",
+    "build": "parcel build ./src/index.html",
+    "bundle": "parcel serve ./src/index.html",
+    "compile": "tsc -w --noEmit"
   },
   "alias": {
     "react": "preact/compat",
