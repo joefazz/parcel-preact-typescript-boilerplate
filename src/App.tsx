@@ -1,3 +1,6 @@
+import { useState } from "react";
+
 export default function App() {
-  return <div>Hello testing</div>;
+  const [greeting, setGreeting] = useState('Hello');
+  return <div>{greeting} world</div>;
 }
